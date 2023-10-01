@@ -3,11 +3,11 @@ package HomeWork.SemThree;
 import java.util.Arrays;
 
 class MergeSort {
-//    public static int[] mergeSort(int[] a) {
-//        // Напишите свое решение ниже
-//
-//
-//    }
+    public static int[] mergeSort(int[] a) {
+        Arrays.sort(a);
+        return a;
+
+    }
 }
 
 // Не удаляйте этот класс - он нужен для вывода результатов на экран и проверки
